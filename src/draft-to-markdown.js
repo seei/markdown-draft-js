@@ -191,7 +191,8 @@ const EntityItems = {
 // but for list items we just want one (unless it's the _last_ list item in a group.)
 const SingleNewlineAfterBlock = [
   'unordered-list-item',
-  'ordered-list-item'
+  'ordered-list-item',
+  'todo-item'
 ];
 
 function isEmptyBlock(block) {
